@@ -1,0 +1,25 @@
+- move .gitignore file to root directory and update it 
+add=> 
+node_modules/
+/frontend/node_modules
+.env
+
+
+login to git
+- add new repository
+- add repository name- MERN_project
+- after careting new Repo  we can see commands
+[
+  echo "# MERN_project" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M master
+  git remote add origin https://github.com/yogendraTechie/MERN_project.git
+  git push -u origin master
+]
+
+ so move to root directory - (to push backend and frontend both)
+- git init
+- git add .
+- git commit -m "<commit message>"

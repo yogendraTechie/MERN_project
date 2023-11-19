@@ -1,0 +1,8 @@
+backend=>
+- first setup express.js
+- i nodemon (to enable nodemon-  replace   "start": "node backend/server.js" to   "start": "nodemon backend/server.js" in package.json)
+- i dotenv (to setup .env file - that saves all secure data)
+
+
+frontend=>
+- add create-react-app frontend in root folder for frontend code
